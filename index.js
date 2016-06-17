@@ -4,6 +4,10 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
+app.get("/", function(req,res){
+    res.send("Try<p><a href='https://raiden2012-timestamp-ms.herokuapp.com/1450137600'>https://raiden2012-timestamp-ms.herokuapp.com/1450137600</a></p> <p><a href='https://raiden2012-timestamp-ms.herokuapp.com/December%2015,%202015'>https://raiden2012-timestamp-ms.herokuapp.com/December%2015,%202015</a></p>")
+});
+
 app.get("/:ts", function(req, res) {
     var mnt = null;
     if(/^\d+$/.test(req.params.ts)){
