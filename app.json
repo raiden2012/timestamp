@@ -1,0 +1,8 @@
+{
+  "name": "raiden2012-timestamp-ms",
+  "description": "raiden2012's timestamp micro service",
+  "repository": "https://github.com/raiden2012/timestamp",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "timestamp"],
+  "image": "heroku/nodejs"
+}
